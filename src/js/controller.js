@@ -159,3 +159,5 @@ const init = function () {
   // The recipe has bee loaded yet . It will show undefined
 };
 init();
+
+console.log('in new feature branch');
