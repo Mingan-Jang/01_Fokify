@@ -11,9 +11,9 @@ import 'regenerator-runtime/runtime';
 import { async } from 'regenerator-runtime/runtime';
 
 // Parcel function
-if (module.hot) {
-  module.hot.accept();
-}
+// if (module.hot) {
+//   module.hot.accept();
+// }
 
 // https://forkify-api.herokuapp.com/v2
 
@@ -150,14 +150,14 @@ const init = function () {
   bookmarkView.addHandlerRender(controlBookmark);
   recipeView.addHandlerRender(controlRecipe);
   recipeView.addHandlerUpdateServings(controlServings);
+  // controlServings();
+  // The recipe has not been loaded yet . It will show undefined
   recipeView.addHandlerAddBookmark(controlAddBookMark);
   searchView.addHanderSearch(controlSearchResult);
   paginationView.addHandlerClick(controlPagination);
   addrecipeView.addHandlerUpload(controlAddRecipeSubmit);
   addrecipeView.addHandlerShowWindow(controlAddRecipe);
-  // controlServings();
-  // The recipe has bee loaded yet . It will show undefined
+
+  console.log('My first application');
 };
 init();
-
-console.log('in new feature branch');
