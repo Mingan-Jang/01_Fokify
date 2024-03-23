@@ -2,7 +2,10 @@
 
 Recipe application with custom recipe uploads.
 
-Netify Demo
+# Udemy Course
+https://www.udemy.com/course/the-complete-javascript-course/?couponCode=LETSLEARNNOW
+
+# Netify Demo
 https://fokify-jang-practice.netlify.app/
 
 
